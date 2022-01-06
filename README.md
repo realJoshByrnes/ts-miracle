@@ -6,7 +6,7 @@ ts-miracle is a fork of the Javascript based [Miracle by Matt Godbolt](https://g
 **Goals of TS-Miracle:**
 * Make emulation possible on limited devices such as the PS5
 * Add typings to the entire Javascript codebase.
-* Modernize the code. Miracle was written some time ago and features a lot of deprecated code.
+* Modernise the code. Miracle was written some time ago and features a lot of deprecated code.
 
 **As per the original Miracle README.md:**
 
