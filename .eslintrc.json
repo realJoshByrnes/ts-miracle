@@ -7,7 +7,7 @@
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
-  "parserOptions": { "ecmaVersion": 2021, "sourceType": "module" },
+  "parserOptions": { "ecmaVersion": 2021, "sourceType": "script" },
   "rules": {
     "no-console": "error",
     "prettier/prettier": "error",
