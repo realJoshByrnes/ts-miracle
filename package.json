@@ -1,0 +1,35 @@
+{
+  "name": "ts-miracle",
+  "version": "1.0.0",
+  "description": "A Sega Master System emulator in Typescript",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "format": "eslint src/**/*.ts --fix",
+    "lint": "eslint src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realJoshByrnes/ts-miracle.git"
+  },
+  "author": "realJoshByrnes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/realJoshByrnes/ts-miracle/issues"
+  },
+  "homepage": "https://github.com/realJoshByrnes/ts-miracle#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.174",
+    "@types/jquery": "^3.5.11",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}

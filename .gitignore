@@ -1,3 +1,4 @@
 roms/
 .*.swp
 roms.js
+/node_modules/
