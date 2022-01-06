@@ -24,13 +24,13 @@ dist: all
 ROMS := $(shell find roms -type f | sort)
 
 roms.js: $(ROMS) Makefile
-	echo 'var RomList = [' > roms.js
-	for rom in $(ROMS); do echo \"$$rom\", | sed 's/roms\///g' >> roms.js; done
-	echo '];' >> roms.js
+	echo 'var RomList = [' > lib/roms.js
+	for rom in $(ROMS); do echo "  \"$$rom\"", | sed 's/roms\///g' >> lib/roms.js; done
+	echo '];' >> lib/roms.js
 
 z80:
 	$(MAKE) -C z80
 
 clean:
 	$(MAKE) -C z80 clean
-	rm -f roms.js
+	rm -f lib/roms.js
